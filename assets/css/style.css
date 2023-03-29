@@ -48,21 +48,32 @@ h1, h2 {
     overflow: hidden;
 }
 
+.menu {
+    background-color: #88d498;
+}
+
 .menu a{
     display: block;
     padding: 30px;
-    color: black;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font-weight: 1000;
+    border-bottom: 2px solid #198a68;
 }
+
 .menu a:hover{
-    background-color: black;
+    background-color: #caeed2;
+    color: #3a3a3a;
 }
-.nav{
+
+.nav {
     max-height: 0;
     transition: max-height .5s ease-out;
 }
 
 /* Menu Icon */
-.hamburger{
+.hamburger {
     cursor: pointer;
     float: right;
     padding: 40px 20px;
@@ -70,7 +81,7 @@ h1, h2 {
 
 .hamburger-line {
     background: black;
-    display: block;
+    display: flex;
     height: 2px;
     position: relative;
     width: 24px;
@@ -78,11 +89,11 @@ h1, h2 {
 } /* Style span tag */
 
 
-.hambburger-line::before,
-.hamburger-line::after{
+.hamburger-line::before,
+.hamburger-line::after {
     background: black;
     content: '';
-    display: block;
+    display: flex;
     height: 100%;
     position: absolute;
     transition: all .2s ease-out;
@@ -104,7 +115,7 @@ h1, h2 {
     max-height: 100%;
 }
 .side-menu:checked ~ .hamburger .hamburger-line {
-    background: transparent;
+    background: white;
 }
 .side-menu:checked ~ .hamburger .hamburger-line::before {
     transform: rotate(-45deg);
