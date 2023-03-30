@@ -257,7 +257,11 @@ h1, h2 {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+    
 }
+
+
 
 
 /* Media queries */
@@ -322,7 +326,11 @@ h1, h2 {
         font-size: 100%;
     }
 
-    .about {
+    .about p {
         margin: 25px 10%;
+    }
+
+    .notice-box div h3, p {
+        margin: 20px;
     }
 }
