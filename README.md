@@ -43,7 +43,8 @@ RESPONSIVE MOCKUP HERE
   ### Media
 
   * lee-valley-logo.png - Logo - created by myself using Photoshop
-  * [hero.jpg - Hero image - Pexels](https://www.pexels.com/photo/cottage-on-grassy-hill-near-golf-course-under-cloudless-blue-sky-6871281/)
+  * [hero.webp - Hero image - Pexels](https://www.pexels.com/photo/cottage-on-grassy-hill-near-golf-course-under-cloudless-blue-sky-6871281/)
+  * [parallax.webp - Parallax image on home page - Pexels](https://www.pexels.com/photo/titrist-golf-ball-near-golf-hole-54123/)
 
   ### Wireframes
   
