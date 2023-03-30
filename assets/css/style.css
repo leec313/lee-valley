@@ -182,8 +182,40 @@ h1, h2 {
 /* paragraph about section on homepage */
 
 .about {
-    margin: 15px;
+    margin: 50px 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* Animation for about section */
+    animation: 5s anim-lineUp ease-out; 
 }
+
+.about h2 {
+    text-transform: uppercase;
+    color: #278a68;
+    padding-bottom: 25px;  
+}
+
+/* Animation for about section */
+@keyframes anim-lineUp {
+     0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+     opacity: 1;
+     transform: translateY(0%);
+    }
+}
+
 
 /* Media queries */
 
@@ -245,5 +277,9 @@ h1, h2 {
 
     #cover-text h3 {
         font-size: 100%;
+    }
+
+    .about {
+        margin: 25px 10%;
     }
 }
