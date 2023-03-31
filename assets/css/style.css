@@ -219,6 +219,7 @@ h1, h2 {
 /* parallax image on index.html */
 
 .parallax {
+    margin-bottom: 25px;
     background-image: url("../images/parallax.webp");
     min-height: 400px;
   
@@ -232,17 +233,16 @@ h1, h2 {
 /* Events & Notices section on index.html */
 
 
-.notices h2 {
-    display: flex;
-    justify-content: center;
-    padding-top: 25px;
+.notices h3, h2 {
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: center;
 }
 
 .notice-box {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    width: 100%;
     padding-top: 25px;
     padding-bottom: 25px;
     flex-wrap: wrap;
@@ -262,6 +262,15 @@ h1, h2 {
 
 .notice-box div p {
     margin: 10px;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    background-color: #198a68;
+    align-items: center;
 }
 
 
