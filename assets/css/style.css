@@ -351,6 +351,12 @@ footer {
     color: #198a68;
 }
 
+.signup-form #terms {
+    width: 20px;
+}
+
+
+
 /* Media queries */
 
 /* for nav */
@@ -440,5 +446,9 @@ footer {
 
     .gallery {
         column-count: 2;
+    }
+
+    .signup-form {
+        width: 40%;
     }
 }
