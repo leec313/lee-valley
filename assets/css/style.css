@@ -287,11 +287,24 @@ h1, h2 {
 
 footer {
     width: 100%;
-    display: flex;
-    justify-content: center;
     height: 100px;
     background-color: #198a68;
-    align-items: center;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline-flex;
+    margin: 30px;
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #ffffff;
 }
 
 
@@ -375,5 +388,10 @@ footer {
     
     .notice-box div h3, p {
         margin: 20px;
+    }
+
+    .social-networks > li {
+        display: inline-flex;
+        margin: 30px 80px 0px 80px;
     }
 }
