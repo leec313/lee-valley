@@ -39,12 +39,24 @@ RESPONSIVE MOCKUP HERE
   ## Credits 
 
   ### Content 
+  
+  * fontawesome.com for all icons
 
   ### Media
 
   * lee-valley-logo.png - Logo - created by myself using Photoshop
   * [hero.webp - Hero image - Pexels](https://www.pexels.com/photo/cottage-on-grassy-hill-near-golf-course-under-cloudless-blue-sky-6871281/)
   * [parallax.webp - Parallax image on home page - Pexels](https://www.pexels.com/photo/titrist-golf-ball-near-golf-hole-54123/)
+
+  ##### Gallery page images
+
+  * [gallery1.webp - 1st image - Unsplash](https://unsplash.com/photos/uy5ZEqUOscs?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
+  * [gallery2.webp - 2nd image - Unsplash](https://unsplash.com/photos/_dYkmRgqHqo)
+  * [gallery3.webp - 3rd image - Unsplash](https://unsplash.com/photos/5yxJpt_TcAo)
+  * [gallery4.webp - 4th image - Unsplash](https://unsplash.com/photos/GpkYK-92VPg)
+  * [gallery5.webp - 5th image - Pexels](https://www.pexels.com/photo/green-leaf-trees-on-grass-field-914682/)
+  * [gallery6.webp - 6th image - Pexels](https://www.pexels.com/photo/bridge-clouds-club-countryside-209982/)
+  * [gallery7.webp - 7th image - Pexels](https://www.pexels.com/photo/man-sitting-on-black-and-gray-golf-cart-1325723/)
 
   ### Wireframes
   
