@@ -45,7 +45,7 @@ RESPONSIVE MOCKUP HERE
 
   ### Media
 
-  * lee-valley-logo.png - Logo - created by myself using Photoshop
+  * [lee-valley-logo.png - Logo - created by myself using Photoshop](https://raw.githubusercontent.com/leec313/lee-valley/main/assets/images/lee-valley-logo.webp)
   * [hero.webp - Hero image - Pexels](https://www.pexels.com/photo/cottage-on-grassy-hill-near-golf-course-under-cloudless-blue-sky-6871281/)
   * [parallax.webp - Parallax image on home page - Pexels](https://www.pexels.com/photo/titrist-golf-ball-near-golf-hole-54123/)
   * [signup.webp - Signup page background - Unsplash](https://unsplash.com/photos/I2bCx_tzwh8)
@@ -63,4 +63,8 @@ RESPONSIVE MOCKUP HERE
 
   ### Wireframes
   
-  * [PDF link to wireframes (Google Drive)](https://drive.google.com/file/d/1z1TQskqceuVeLCms8eKZLK4_5e7dnxOJ/view?usp=share_link)
+  #### Mobile
+  ![Mobile Wireframe](https://github.com/leec313/lee-valley/blob/main/assets/images/wireframe-mobile.png?raw=true)
+
+  #### Desktop
+  ![Desktop Wireframe](https://raw.githubusercontent.com/leec313/lee-valley/main/assets/images/wireframe-desktop.png)
