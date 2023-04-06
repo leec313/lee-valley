@@ -246,10 +246,10 @@ h1, h2 {
     text-transform: uppercase;
     text-decoration: underline;
     text-align: center;
+    padding-top: 15px;
 }
 
 .notices h2 {
-    text-transform: uppercase;
     text-decoration: underline;
     text-align: center;
 }
@@ -267,11 +267,12 @@ h1, h2 {
     width: 40%;
     height: 200px;
     text-align: center;
-    background-color: rgb(25 138 104 / 40%);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    font-weight: bold;
+    background-image: url(/assets/images/notice.webp);
+    background-size: 458px;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    box-shadow: inset 0 0 99999px #fff;
     margin: 10px;
     border: 5px solid #198a68;
     border-radius: 10px;
@@ -348,13 +349,14 @@ footer h3 {
 
 .signup-form input {
     color: white;
-    background-color:#198a68;
+    background-color:#88d498;
+    border: 2px solid #198a68;
+    border-radius: 20px;
     width: 100%;
     height: 25px;
 }
 
 .signup-form .submit {
-    width: 40%;
     background-color: white;
     border: 2px solid #198a68;
     color: #198a68;
