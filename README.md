@@ -53,15 +53,27 @@ I made use of flex in order to scale and align for both mobile and desktop. As s
 
 - __The Footer__ 
 
+The footer includes 4 links to various social media sites and also a copyright icon with the year and course name.
 
+![Footer](https://screenshot.click/07-49-6402-79067.png)
 
 - __Gallery__
   - The gallery will provide the user with supporting images to see what the course look like. 
   - This section is valuable to the user as they will be able to easily identify the type of course it is and how well maintained it is.
+  - The gallery section is responsive so that it displays two columns for desktop and one for mobile.
 
-- __The Sign Up Page__
+  ![gallery](https://screenshot.click/07-56-67224-99088.png)
 
-  - This page will allow the user to get signed up to Lee Valley Golf Club and start their journey with as a member. The user will be able to enter their Golf Handicap (if they have one) and other optional data. The user will be asked to submit their full name and email address, which is mandatory. 
+- __Membership & Contact Page__
+
+  - This page will allow the user to get signed up to Lee Valley Golf Club and start their journey with as a member. The user will be able to enter their Golf Handicap (if they have one) and other optional data. The user will be asked to submit their full name and email address, which is mandatory.
+  - It includes a background image layered under the form section to give a nice visual effect.
+
+  ![Membership](https://screenshot.click/07-00-82974-39661.png)
+
+  - The contact section on this page provides information for users in order to get in touch via phone or email. It also includes phone opening times. 
+
+  ![Contact](https://screenshot.click/07-00-68148-72314.png)
 
 ### Features Left to Implement
   - I would have liked to add a scroll trigger on the About section animation on the home page. At the moment, it's just triggered on page load. I researched to only find that Javascript is needed in order to trigger the animation on scroll [as per this blog.](https://imjignesh.com/how-to-trigger-css-animation-on-scroll/)
