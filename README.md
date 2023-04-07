@@ -39,7 +39,13 @@ A simple menu for desktop and larger screens (over 768px wide) allows for easily
   - I would have liked to add a scroll trigger on the About section animation on the home page. At the moment, it's just triggered on page load. I researched to only find that Javascript is needed in order to trigger the animation on scroll [as per this blog.](https://imjignesh.com/how-to-trigger-css-animation-on-scroll/)
   I could delay the animation with `animation-delay`, however this does not make much sense and does not fit in very well.
 
-## Testing 
+## Testing
+
+  - Had a really tough time getting the navigation aligned correctly with flex. Was able to use resources and tutor time to figure it out to a point where I was happy. 
+  - Since doing the above, another bug crept up. The X did not appear after clicking the burger icon on mobile. 
+  >
+  >
+  >
 
 ### Validator Testing 
 
@@ -52,12 +58,14 @@ A simple menu for desktop and larger screens (over 768px wide) allows for easily
 
   The live link can be found here - https://leec313.github.io/lee-valley/
 
-  ## Credits 
+  ## Credits
 
   ### Content 
   
   * fontawesome.com for all icons
   * tinypng.com for compressing gallery page images
+  * [DEV Community](https://dev.to/jungjungie/create-a-navbar-with-css-flexbox-2leh#:~:text=Apply%20Flexbox%20to%20Your%20Navbar,%2C%20it's%20the%20.), [W3 Schools](https://www.w3schools.com/howto/howto_js_mobile_navbar.asp) & [Logrocket](https://blog.logrocket.com/create-responsive-mobile-menu-with-css-no-javascript/#:~:text=There%20are%20many%20techniques%20available,on%20a%20device's%20screen%20size.) - Used all three resources to create my own version of a responsive navigation header section with flex
+  * 
 
   ### Media
 
