@@ -3,7 +3,7 @@
 The Lee Valley Golf Club is based in Dublin, Ireland. This is where people can sign up to become members via the Sign Up page, check out the course gallery, see important information such as event times,
 office & pro club opening hours and notices will be displayed here for when the course is unplayable due to unforeseeable weather conditions and other situations. 
 
-![](https://screenshot.click/07-25-35133-9544.png)
+![](https://raw.githubusercontent.com/leec313/lee-valley/main/assets/images/responsive.png)
 
 ## Features 
 
@@ -23,9 +23,37 @@ A simple menu for desktop and larger screens (over 768px wide) allows for easily
 
 ![For desktop](https://screenshot.click/07-45-13245-64340.png)
 
-- __The landing page image__
+- __The Hero image__
+
+A picturesque hero image with an slightly transparent overlay, keeping in line with the theme's color, and some h2 and h3 headings. This includes the course name and motto. 
+
+![Hero image](https://screenshot.click/07-32-91739-31511.png)
+
+- __About Section__
+
+This includes a h2 heading and paragraph describing the course to tell them about the amenities, location and other information.
+
+![About](https://screenshot.click/07-36-3230-82356.png)
+
+- __Parallax image__
+
+A nice visual feature, simply added via css. This is quie eye catching for the user and ties in nicely to the homepage.
+
+![Parallax](https://screenshot.click/07-38-87450-75547.png)
+
+- __Notice & Events__
+
+This section allows the Administrator to add any notices/events that might be happening in the club.
+
+![Notice - Desktop](https://screenshot.click/07-39-79066-63236.png)
+
+I made use of flex in order to scale and align for both mobile and desktop. As seen below, under 768px screen width, the columns go from four to two and rows from one to two.
+
+![Notice - Mobile](https://screenshot.click/07-40-62245-52060.png)
 
 - __The Footer__ 
+
+
 
 - __Gallery__
   - The gallery will provide the user with supporting images to see what the course look like. 
