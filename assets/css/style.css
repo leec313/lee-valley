@@ -117,19 +117,6 @@ h1, h2 {
     max-height: 100%;
 }
 
-.side-menu:checked ~ .hamburger .hamburger-line {
-    background: transparent;
-}
-
-.side-menu:checked ~ .hamburger .hamburger-line::before {
-    transform: rotate(-45deg);
-    top:0;
-}
-
-.side-menu:checked ~ .hamburger .hamburger-line::after {
-    transform: rotate(45deg);
-    top:0;
-}
 
 /* Hero image */
 
