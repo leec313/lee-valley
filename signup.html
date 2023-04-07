@@ -14,9 +14,9 @@
 <body>
     <header class="header">
         <!--nav, logo and menu-->
-        <div class="logo-and-burger-nav">
+        <div class="logo-and-burger-nav"> <!--for desktop-->
             <input class="side-menu" type="checkbox" id="side-menu">
-            <span class="logo-and-burger">
+            <span class="logo-and-burger"> <!--for mobile-->
             <label class="hamburger" for="side-menu"><span class="hamburger-line"></span></label>
             <a href="index.html">
                 <img id="logo-image" src="assets/images/lee-valley-logo.webp" alt="Lee Valley Golf Club Logo">
@@ -53,6 +53,7 @@
             <input type="number" id="age" name="age" required><br>
             <label for="handicap">If you have one, enter your golf handicap:</label>
             <input type="number" id="handicap" name="handicap"><br>
+            <!--Use of span allows the checkbox and label to be on the same line-->
             <span>
             <label for="terms">I agree to the terms and conditions:</label>
             <input type="checkbox" id="terms" name="terms" required>

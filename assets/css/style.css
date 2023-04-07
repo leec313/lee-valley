@@ -9,15 +9,7 @@
 .header {
     background-color: white;
     box-shadow: 1px 1px 5px 0px grey;
-    position: sticky;
     width: 100%;
-    height: auto;
-}
-
-.logo-and-burger-nav {
-    display: flex;
-    align-items: flex-end;
-    flex-direction: column;
 }
 
 .logo-and-burger {
@@ -462,13 +454,14 @@ footer h3 {
         text-decoration: underline;
     }
 
+    /* nav styling for desktop */
     .logo-and-burger-nav {
         display: flex;
         align-items: flex-end;
         flex-direction: row;
         width: 90%;
     }
-
+    /* hiding mobile burger icon for desktop */
     .hamburger {
         display: none;
     }
