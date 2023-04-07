@@ -245,8 +245,8 @@ h1, h2 {
     text-transform: uppercase;
     text-decoration: underline;
     text-align: center;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 .notices h2 {
@@ -276,6 +276,13 @@ h1, h2 {
     border: 5px solid #198a68;
     border-radius: 10px;
     padding-bottom: 15px;
+}
+
+.notice-box i {
+    font-size: 150%;
+    padding-top: 10px;
+    color: #198a68;
+    font-weight: bold;
 }
 
 /* footer section */
