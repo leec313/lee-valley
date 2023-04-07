@@ -173,10 +173,9 @@ h1, h2 {
 }
 
 #cover-text {
-    font-size: 130%;
-    text-transform: uppercase;
+    font-size: 120%;
     height: 200px;
-    padding-top: 103px;
+    padding-top: 100px;
     padding-left: 10%;
     padding-right: 10%;
     background-color: rgb(25 138 104 / 40%);
@@ -247,6 +246,7 @@ h1, h2 {
     text-decoration: underline;
     text-align: center;
     padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .notices h2 {
@@ -265,7 +265,6 @@ h1, h2 {
 
 .notice-box div {
     width: 40%;
-    height: 200px;
     text-align: center;
     font-weight: bold;
     background-image: url(../images/notice.webp);
@@ -277,10 +276,7 @@ h1, h2 {
     border: 5px solid #198a68;
     border-radius: 10px;
     overflow: hidden;
-}
-
-.notice-box div p {
-    margin: 10px;
+    padding-bottom: 15px;
 }
 
 /* footer section */
@@ -380,6 +376,7 @@ footer h3 {
 
 /* Media queries */
 
+
 @media (min-width: 768px) {
 
     /* for nav and menu */
@@ -441,11 +438,12 @@ footer h3 {
     }
     /* Hero image cover text */
     #cover-text {
-        width: 30%;
+        width: 500px;
+        font-size: 150%;
     }
 
     #cover-text h3 {
-        font-size: 100%;
+        font-size: 90%;
     }
     /* about section index.html */
     .about p {
@@ -454,10 +452,6 @@ footer h3 {
     /* Notice & Events section */
     .notice-box {
         flex-wrap: nowrap;
-    }
-    
-    .notice-box div h3, p {
-        margin: 20px;
     }
 
     /* footer */
