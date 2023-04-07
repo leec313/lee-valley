@@ -9,7 +9,19 @@ RESPONSIVE MOCKUP HERE
 
 ### Existing Features
 
-- __Navigation Bar__
+* ### Navigation Bar
+
+- #### Mobile
+
+I decided to implement the burger style navigation menu for mobile, as this is best suited for user experience on smaller screens. The use of colors taken from the pallette of the logo compliments the style of the menu. 
+
+![For mobile](https://screenshot.click/07-47-11651-59523.png)
+
+- #### Desktop
+
+A simple menu for desktop and larger screens (over 768px wide) allows for easily viewable and accessible navigation. Using the `.active` class on the current page allows the user to see which page they are currently on via an underline.
+
+![For desktop](https://screenshot.click/07-45-13245-64340.png)
 
 - __The landing page image__
 
@@ -22,6 +34,10 @@ RESPONSIVE MOCKUP HERE
 - __The Sign Up Page__
 
   - This page will allow the user to get signed up to Lee Valley Golf Club and start their journey with as a member. The user will be able to enter their Golf Handicap (if they have one) and other optional data. The user will be asked to submit their full name and email address, which is mandatory. 
+
+### Features Left to Implement
+  - I would have liked to add a scroll trigger on the About section animation on the home page. At the moment, it's just triggered on page load. I researched to only find that Javascript is needed in order to trigger the animation on scroll [as per this blog.](https://imjignesh.com/how-to-trigger-css-animation-on-scroll/)
+  I could delay the animation with `animation-delay`, however this does not make much sense and does not fit in very well.
 
 ## Testing 
 
