@@ -79,9 +79,10 @@ The footer includes 4 links to various social media sites and also a copyright i
 
   ![Contact](https://screenshot.click/07-00-68148-72314.png)
 
-### Features Left to Implement
+### Features I would like to Implement
   - I would have liked to add a scroll trigger on the About section animation on the home page. At the moment, it's just triggered on page load. I researched to only find that Javascript is needed in order to trigger the animation on scroll [as per this blog.](https://imjignesh.com/how-to-trigger-css-animation-on-scroll/)
   I could delay the animation with `animation-delay`, however this does not make much sense and does not fit in very well.
+  - Google Calendar - Would like to edit the styling of the calendar itself. I found this [Stack Overflow post](https://stackoverflow.com/questions/49306347/how-to-customize-google-calendar-with-css), that states you can use the Google APIs to edit the Calendar - [Google Dev Docs](https://developers.google.com/calendar/). If I had the skillset, I would have gone down the route, however for the purpose of this project, the default iframe works just fine.
 
 ## Testing
 
