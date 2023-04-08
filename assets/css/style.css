@@ -218,7 +218,6 @@ h1, h2 {
 
 /* Events & Notices section on index.html */
 
-
 .notices h3 {
     text-transform: uppercase;
     text-decoration: underline;
@@ -261,6 +260,10 @@ h1, h2 {
     padding-top: 10px;
     color: #198a68;
     font-weight: bold;
+}
+
+.notice-box i, h3, p {
+    text-shadow: #fff 1px 0 1px;
 }
 
 /* footer section */
@@ -447,10 +450,12 @@ footer h3 {
         flex-direction: row;
         width: 90%;
     }
+
     /* hiding mobile burger icon for desktop */
     .hamburger {
         display: none;
     }
+
     /* Hero image cover text */
     #cover-text {
         width: 500px;
@@ -460,13 +465,19 @@ footer h3 {
     #cover-text h3 {
         font-size: 90%;
     }
+
     /* about section index.html */
     .about p {
         margin: 25px 10%;
     }
+
     /* Notice & Events section */
     .notice-box {
         flex-wrap: nowrap;
+    }
+
+    .notice-box p {
+        padding: 10px;
     }
 
     /* footer */
