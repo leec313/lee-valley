@@ -8,6 +8,12 @@ office & pro club opening hours and notices will be displayed here for when the 
 # Contents
 
 * [**Objective**](<#objective>)
+* [**User Experience**](<#user-experience-ux>)
+  * [**Wireframes**](<#wireframes>)
+  * [**Structure**](<#structure>)
+  * [**Design**](<#design>)
+    * [**Colour Palette**](<#colour-palette>)
+    * [**Typography**](<#typography>)
 * [**Features**](<#features>)
   * [**Existing Features**](<#existing-features>)
     * [**Navigation Bar**](<#navigation-bar>)
@@ -26,17 +32,53 @@ office & pro club opening hours and notices will be displayed here for when the 
 * [**Credits**](<#credits>)
   * [**Content**](<#content>)
   * [**Media**](<#media>)
-* [**Wireframes**](<#wireframes>)
+
 
 # **Objective**
 
 For my portfolio project one, I intend to provide a professionally developed website for users to find out about a local golf course. The main objective is to demonstrate competency in HTML and CSS alongside showcasing attention to detail and the importance of thorough testing.
 
+# **User Experience (UX)**
+
+  ## **Wireframes**
+
+  The design & wireframes for this project were produced in [Balsamic Wireframe Software](https://balsamiq.com/wireframes/). This includes design prototypes for both, smaller and larger screens. The final design does differ from the initial prototype due to design developments that occurred in the process. However, the base structure has more or less been kept in mind throughout. 
+    
+  ### Mobile
+  ![Mobile Wireframe](https://github.com/leec313/lee-valley/blob/main/assets/images/wireframe-mobile.png?raw=true)
+
+  ### Desktop
+  ![Desktop Wireframe](https://raw.githubusercontent.com/leec313/lee-valley/main/assets/images/wireframe-desktop.png)
+
+  ## **Structure**
+
+  Lee Valley Golf Club is a 4 page website with each having it's own navigation link at the top of the page. The [Home](https://leec313.github.io/lee-valley/index.html) page is the default loading page. The user can easily navigate to other pages via the navigation links on all device types as it is a fully responsive website. 
+
+  ## **Design**
+
+  ### Colour Palette
+
+  The colour palette of the website was first thought of when I was creating the logo. I wanted something green, but not too harsh or vibrant. The below two colours were chosen because they work well together and tie in nicely with other colours that may appear throughout the site. The scheme gives off an inviting feeling and also relate to a golf course. The darker green works well on a white background or underneath white text. The lighter green works well with darker text colours. 
+
+  ![colour palette](https://screenshot.click/08-39-16816-27729.png)
+
+  ### Typography
+
+  The fonts I decided to go with were [Raleway](https://fonts.google.com/specimen/Raleway/) and [Lato](https://fonts.google.com/specimen/Lato/). The headings used Raleway and everything else in the body used Lato. If they were not available, they fell back to sans-serif. When Raleway is used in uppercase, the font really does fit in with the Logo I used. 
+
+  Similarly, Lato is quite an elegant font and really looks nice on the Lee Valley website. Various font-weights and other attributes were used to give further clarity to the user throughout the site.
+  
+  Both fonts compliment each other exquisitely. 
+
 # **Features**
+
+  The Lee Valley Golf Club website includes very useful features listed below. They include many familiar aspects such as a navigation, form and gallery. The site was designed to keep User Experience as simple as possible and not to be intimidating in any way, but to be intuitive, and to promote the user to explore freely.
 
   ## **Existing Features**
 
   ### **Navigation Bar**
+
+  The Logo on in the header is clickable and links back to the home page for enhanced UX.
 
   - #### Mobile
 
@@ -62,7 +104,7 @@ For my portfolio project one, I intend to provide a professionally developed web
 
 ### **About Section**
 
-  This includes a h2 heading and paragraph describing the course to tell them about the amenities, location and other information.
+  This includes a h2 heading and paragraph describing the course to tell them about the amenities, location and other information. It immediately gives the user a sense of who the Lee Valley Golf Club is and encourages them to explore further.
 
   ![About](https://screenshot.click/07-36-3230-82356.png)
 
@@ -84,14 +126,15 @@ For my portfolio project one, I intend to provide a professionally developed web
 
 ### **Footer**
 
-  The footer includes 4 links to various social media sites and also a copyright icon with the year and course name.
+  The footer includes 4 links to various social media sites. To enhance the UX, the links open in separate tabs.
+  The Facebook, Twitter, Youtube and Instagram social links are there for educational purposes and navigate the user to the home page of each respected site. They would be changed to re-direct the user to the respective Lee Valley Golf Club social media if this site was deployed outside of this project.
 
   ![Footer](https://screenshot.click/07-49-6402-79067.png)
 
 ### **Gallery**
-  - The gallery will provide the user with supporting images to see what the course look like. 
+  - The gallery provides the user with supporting images to see what the course and amenities looks like. 
   - This section is valuable to the user as they will be able to easily identify the type of course it is and how well maintained it is.
-  - The gallery section is responsive so that it displays two columns for desktop and one for mobile.
+  - The gallery section is responsive so that it displays two columns for desktop and one for mobile. This was done using flex.
   - Also includes a 10 second zoom animation that kicks in on page load. I think it adds a nice effect when viewing the images.
 
   ![gallery](https://screenshot.click/08-39-66942-46427.png)
@@ -113,10 +156,28 @@ For my portfolio project one, I intend to provide a professionally developed web
   Again, this section is responsive to scale up to larger screens and scale down to smaller screens. Events are added via the Google Calendar of the Google Account used and the iframe is taken from Calendar Settings. 
   ![Events](https://screenshot.click/08-22-84071-63806.png)
 
-# **Features I would like to Implement**
-  - I would have liked to add a scroll trigger on the About section animation on the home page. At the moment, it's just triggered on page load. I researched to only find that Javascript is needed in order to trigger the animation on scroll [as per this blog.](https://imjignesh.com/how-to-trigger-css-animation-on-scroll/)
+# ** Future Features**
+
+  - ### Animation 
+  
+  I would like to add a scroll trigger on the About section animation on the home page. At the moment, it's just triggered on page load. I researched to only find that Javascript is needed in order to trigger the animation on scroll [as per this blog.](https://imjignesh.com/how-to-trigger-css-animation-on-scroll/)
   I could delay the animation with `animation-delay`, however this does not make much sense and does not fit in very well.
-  - Google Calendar - Would like to edit the styling of the calendar itself. I found this [Stack Overflow post](https://stackoverflow.com/questions/49306347/how-to-customize-google-calendar-with-css), that states you can use the Google APIs to edit the Calendar - [Google Dev Docs](https://developers.google.com/calendar/). If I had the skillset, I would have gone down the route, however for the purpose of this project, the default iframe works just fine.
+
+  - ### Google Calendar
+  
+  Would like to edit the styling of the calendar itself. I found this [Stack Overflow post](https://stackoverflow.com/questions/49306347/how-to-customize-google-calendar-with-css), that states you can use the Google APIs to edit the Calendar - [Google Dev Docs](https://developers.google.com/calendar/). If I had the skillset, I would have gone down the route, however for the purpose of this project, the default iframe works just fine.
+  
+  - ### Payment for Membership page
+
+  I feel allowing the user to pay on-site would really enhance user experience. For the moment, the user will fill in the Membership signup form and wait for further outreach by the club in order to arrange payment. The onsite payment gateway would most likley increase membership and allow for a better member/club relationship.
+
+  - ### Sign in & Booking System
+
+  A sign in and booking system here would work really well. Similar to [BRS Member Booking](https://www.brsgolf.com/web/member-booking/), this would allow members to login to their account, check the available tee times/booking slots and choose their desired play time. It would decrease the staff needed to take bookings over the phone and have a user facing booking system and admin so that staff can manage bookings internally too. 
+
+  - ### Testimonials 
+
+  A testimonials section would tie in nicely with the login feature. If a member added a testimonial, their first name and profile image would display in their testimonial block along with their feedback. We would have up to four testimonials displayed across a section of one of the pages (home page and perhaps the signup page to encourage users to join).
 
 # **Testing**
 
@@ -124,6 +185,14 @@ For my portfolio project one, I intend to provide a professionally developed web
   - On the gallery page, the animation zoom effect was hiding part of the footer. Add `overflow: hidden;` and fixed that issue.
 
 # **Validator Testing**
+
+  ### **index.html**
+
+  ### **gallery.html**
+
+  ### **signup.html**
+
+  ### **events.html**
 
 # **Deployment**
 
@@ -142,6 +211,7 @@ For my portfolio project one, I intend to provide a professionally developed web
   * tinypng.com for compressing gallery page images
   * [DEV Community](https://dev.to/jungjungie/create-a-navbar-with-css-flexbox-2leh#:~:text=Apply%20Flexbox%20to%20Your%20Navbar,%2C%20it's%20the%20.), [W3 Schools](https://www.w3schools.com/howto/howto_js_mobile_navbar.asp) & [Logrocket](https://blog.logrocket.com/create-responsive-mobile-menu-with-css-no-javascript/#:~:text=There%20are%20many%20techniques%20available,on%20a%20device's%20screen%20size.) - Used all three resources to create my own version of a responsive navigation header section with flex
   * Used the following link in order to add Google Calendar to events.html: [Google Calendar Help](https://support.google.com/calendar/answer/41207?hl=en)
+  * Fonts used - [Raleway](https://fonts.google.com/specimen/Raleway/) & [Lato](https://fonts.google.com/specimen/Lato/)
 
   ## **Media**
 
@@ -150,6 +220,7 @@ For my portfolio project one, I intend to provide a professionally developed web
   * [parallax.webp - Parallax image on home page - Pexels](https://www.pexels.com/photo/titrist-golf-ball-near-golf-hole-54123/)
   * [signup.webp - Signup page background - Unsplash](https://unsplash.com/photos/I2bCx_tzwh8)
   * [notice.webp - Notice boxes on home page - Pexels](https://www.pexels.com/photo/a-person-putting-a-golf-ball-with-tee-on-green-grass-6542389/)
+  * [responsive.png - Used in readme to preview the site on all screen sizes](https://ui.dev/amiresponsive)
 
   ### **Gallery page images**
 
@@ -162,11 +233,3 @@ For my portfolio project one, I intend to provide a professionally developed web
   * [gallery7.webp - 7th image - Pexels](https://www.pexels.com/photo/man-sitting-on-black-and-gray-golf-cart-1325723/)
   * [gallery8.webp - 8th image - Unsplash](https://unsplash.com/photos/4DJF2yZGZVs)
   * [gallery9.webp - 9th image - Unsplash](https://unsplash.com/photos/Z8XlmAj65iM)
-
-# **Wireframes**
-  
-  ## Mobile
-  ![Mobile Wireframe](https://github.com/leec313/lee-valley/blob/main/assets/images/wireframe-mobile.png?raw=true)
-
-  ## Desktop
-  ![Desktop Wireframe](https://raw.githubusercontent.com/leec313/lee-valley/main/assets/images/wireframe-desktop.png)
