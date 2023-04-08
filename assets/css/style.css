@@ -329,6 +329,13 @@ footer h3 {
         animation-duration: 10s;
         animation-fill-mode: forwards;
     }
+
+/* sytling the header for gallery page */
+.h2-gallery {
+    text-align: center;
+    padding: 15px;
+    color: #198a68;
+}
     
 /* creates the level of zoom for gallery images */
 @keyframes gallery-zoom {
