@@ -262,7 +262,7 @@ h1, h2 {
     font-weight: bold;
 }
 
-.notice-box i, h3, p {
+.notice-box i, .notice-box h3, .notice-box p {
     text-shadow: #fff 1px 0 1px;
 }
 
