@@ -62,7 +62,6 @@ h1, h2 {
     font-weight: 1000;
     border-bottom: 2px solid #198a68;
     text-transform: uppercase;
-    
 }
 
 .menu a:hover {
@@ -461,8 +460,8 @@ footer h3 {
     .nav {
         max-height: none;
         width: 100%;
-        top: 0;
         background-color: transparent;
+        overflow: visible;
     }
 
     .menu {
@@ -496,9 +495,7 @@ footer h3 {
     /* nav styling for desktop */
     .logo-and-burger-nav {
         display: flex;
-        align-items: flex-end;
         flex-direction: row;
-        width: 90%;
     }
 
     /* hiding mobile burger icon for desktop */
@@ -550,3 +547,4 @@ footer h3 {
         height: 1000px;
     }
 }
+
