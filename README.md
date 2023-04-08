@@ -5,70 +5,98 @@ office & pro club opening hours and notices will be displayed here for when the 
 
 ![](https://raw.githubusercontent.com/leec313/lee-valley/main/assets/images/responsive.png)
 
-## Features 
+# Contents
 
-### Existing Features
+* [**Objective**](<#objective>)
+* [**Features**](<#features>)
+  * [**Existing Features**](<#existing-features>)
+    * [**Navigation Bar**](<#navigation-bar>)
+    * [**Hero Image**](<#hero-image>)
+    * [**About Section**](<#about-section>)
+    * [**Parallax Image**](<#parallax-image>)
+    * [**Notice & Events**](<#notice--events>)
+    * [**Footer**](<#footer>)
+    * [**Gallery**](<#gallery>)
+    * [**Membership & Contact Page**](<#membership--contact-page>)
+    * [**Event Calendar Page**](<#event-calendar-page>)
+  * [**Features I would like to Implement**](<#features-i-would-like-to-implement>)
+* [**Testing**](<#testing>)
+* [**Validator Testing**](<#validator-testing>)
+* [**Deployment**](<#deployment>)
+* [**Credits**](<#credits>)
+  * [**Content**](<#content>)
+  * [**Media**](<#media>)
+* [**Wireframes**](<#wireframes>)
 
-* ### Navigation Bar
+# **Objective**
 
-- #### Mobile
+For my portfolio project one, I intend to provide a professionally developed website for users to find out about a local golf course. The main objective is to demonstrate competency in HTML and CSS alongside showcasing attention to detail and the importance of thorough testing.
 
-I decided to implement the burger style navigation menu for mobile, as this is best suited for user experience on smaller screens. The use of colors taken from the pallette of the logo compliments the style of the menu.
+# **Features**
 
-The first selector, `.side-menu:checked ~ nav`, targets the `nav` element that follows the `.side-menu` checkbox when it is checked. It sets the `max-height` property to 100%, allowing the menu to be displayed.
-The second selector, `.side-menu:checked ~ .hamburger .hamburger-line`, targets the `.hamburger-line` element within the `.hamburger` container that follows the `.side-menu` checkbox when it is checked.
-The third selector, `.side-menu:checked ~ .hamburger .hamburger-line::before .hamburger-line::after`, targets the pseudo-element of the `.hamburger-line` element and display the top and bottom lines.
+  ## **Existing Features**
 
-![For mobile](https://screenshot.click/07-47-11651-59523.png)
+  ### **Navigation Bar**
 
-- #### Desktop
+  - #### Mobile
 
-A simple menu for desktop and larger screens (over 768px wide) allows for easily viewable and accessible navigation. Using the `.active` class on the current page allows the user to see which page they are currently on via an underline.
+  I decided to implement the burger style navigation menu for mobile, as this is best suited for user experience on smaller screens. The use of colors taken from the pallette of the logo compliments the style of the menu.
 
-![For desktop](https://screenshot.click/07-45-13245-64340.png)
+  The first selector, `.side-menu:checked ~ nav`, targets the `nav` element that follows the `.side-menu` checkbox when it is checked. It sets the `max-height` property to 100%, allowing the menu to be displayed.
+  The second selector, `.side-menu:checked ~ .hamburger .hamburger-line`, targets the `.hamburger-line` element within the `.hamburger` container that follows the `.side-menu` checkbox when it is checked.
+  The third selector, `.side-menu:checked ~ .hamburger .hamburger-line::before .hamburger-line::after`, targets the pseudo-element of the `.hamburger-line` element and display the top and bottom lines.
 
-- __The Hero image__
+  ![For mobile](https://screenshot.click/08-42-78686-45687.png)
 
-A picturesque hero image with an slightly transparent overlay, keeping in line with the theme's color, and some h2 and h3 headings. This includes the course name and motto. 
+  - #### Desktop
 
-![Hero image](https://screenshot.click/07-32-91739-31511.png)
+  A simple menu for desktop and larger screens (over 768px wide) allows for easily viewable and accessible navigation. Using the `.active` class on the current page allows the user to see which page they are currently on via an underline.
 
-- __About Section__
+  ![For desktop](https://screenshot.click/08-41-77833-9568.png)
 
-This includes a h2 heading and paragraph describing the course to tell them about the amenities, location and other information.
+### **Hero image**
 
-![About](https://screenshot.click/07-36-3230-82356.png)
+  A picturesque hero image with an slightly transparent overlay, keeping in line with the theme's color, and some h2 and h3 headings. This includes the course name and motto. 
 
-- __Parallax image__
+  ![Hero image](https://screenshot.click/07-32-91739-31511.png)
 
-A nice visual feature, simply added via css. This is quie eye catching for the user and ties in nicely to the homepage.
+### **About Section**
 
-![Parallax](https://screenshot.click/07-38-87450-75547.png)
+  This includes a h2 heading and paragraph describing the course to tell them about the amenities, location and other information.
 
-- __Notice & Events__
+  ![About](https://screenshot.click/07-36-3230-82356.png)
 
-This section allows the Administrator to add any notices/events that might be happening in the club.
+### **Parallax image**
 
-![Notice - Desktop](https://screenshot.click/07-39-79066-63236.png)
+  A nice visual feature, simply added via css. This is quie eye catching for the user and ties in nicely to the homepage.
 
-I made use of flex in order to scale and align for both mobile and desktop. As seen below, under 768px screen width, the columns go from four to two and rows from one to two.
+  ![Parallax](https://screenshot.click/07-38-87450-75547.png)
 
-![Notice - Mobile](https://screenshot.click/07-40-62245-52060.png)
+### **Notice & Events**
 
-- __The Footer__ 
+  This section allows the Administrator to add any notices/events that might be happening in the club. It includes a link to the events.html page as "View all events".
 
-The footer includes 4 links to various social media sites and also a copyright icon with the year and course name.
+  ![Notice - Desktop](https://screenshot.click/08-38-49174-453.png)
 
-![Footer](https://screenshot.click/07-49-6402-79067.png)
+  I made use of flex in order to scale and align for both mobile and desktop. As seen below, under 768px screen width, the columns go from four to two and rows from one to two.
 
-- __Gallery__
+  ![Notice - Mobile](https://screenshot.click/08-39-66419-47595.png)
+
+### **Footer**
+
+  The footer includes 4 links to various social media sites and also a copyright icon with the year and course name.
+
+  ![Footer](https://screenshot.click/07-49-6402-79067.png)
+
+### **Gallery**
   - The gallery will provide the user with supporting images to see what the course look like. 
   - This section is valuable to the user as they will be able to easily identify the type of course it is and how well maintained it is.
   - The gallery section is responsive so that it displays two columns for desktop and one for mobile.
+  - Also includes a 10 second zoom animation that kicks in on page load. I think it adds a nice effect when viewing the images.
 
-  ![gallery](https://screenshot.click/07-56-67224-99088.png)
+  ![gallery](https://screenshot.click/08-39-66942-46427.png)
 
-- __Membership & Contact Page__
+### **Membership & Contact Page**
 
   - This page will allow the user to get signed up to Lee Valley Golf Club and start their journey with as a member. The user will be able to enter their Golf Handicap (if they have one) and other optional data. The user will be asked to submit their full name and email address, which is mandatory.
   - It includes a background image layered under the form section to give a nice visual effect.
@@ -79,25 +107,25 @@ The footer includes 4 links to various social media sites and also a copyright i
 
   ![Contact](https://screenshot.click/07-00-68148-72314.png)
 
-  - __Event Calendar Page__
+### **Event Calendar Page**
 
-    - This page links a Google Calendar iframe that displays upcoming events such as golf tournaments. It's also linked to the Notice & Events section of the homepage so the user can access this page through there as well as the navigation menu.
-    Again, this section is responsive to scale up to larger screens and scale down to smaller screens. Events are added via the Google Calendar of the Google Account used and the iframe is taken from Calendar Settings. 
+  - This page links a Google Calendar iframe that displays upcoming events such as golf tournaments. It's also linked to the Notice & Events section of the homepage so the user can access this page through there as well as the navigation menu.
+  Again, this section is responsive to scale up to larger screens and scale down to smaller screens. Events are added via the Google Calendar of the Google Account used and the iframe is taken from Calendar Settings. 
   ![Events](https://screenshot.click/08-22-84071-63806.png)
 
-### Features I would like to Implement
+# **Features I would like to Implement**
   - I would have liked to add a scroll trigger on the About section animation on the home page. At the moment, it's just triggered on page load. I researched to only find that Javascript is needed in order to trigger the animation on scroll [as per this blog.](https://imjignesh.com/how-to-trigger-css-animation-on-scroll/)
   I could delay the animation with `animation-delay`, however this does not make much sense and does not fit in very well.
   - Google Calendar - Would like to edit the styling of the calendar itself. I found this [Stack Overflow post](https://stackoverflow.com/questions/49306347/how-to-customize-google-calendar-with-css), that states you can use the Google APIs to edit the Calendar - [Google Dev Docs](https://developers.google.com/calendar/). If I had the skillset, I would have gone down the route, however for the purpose of this project, the default iframe works just fine.
 
-## Testing
+# **Testing**
 
   - Had a really tough time getting the navigation aligned correctly with flex. Was able to use resources and tutor time to figure it out to a point where I was happy. Since, another bug crept up. The X did not appear after clicking the burger icon on mobile. I've decided to remove the css that applied the X to appear and just leave the burger icon instead when the menu is clicked open.
   - On the gallery page, the animation zoom effect was hiding part of the footer. Add `overflow: hidden;` and fixed that issue.
 
-### Validator Testing 
+# **Validator Testing**
 
-## Deployment
+# **Deployment**
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
@@ -106,16 +134,16 @@ The footer includes 4 links to various social media sites and also a copyright i
 
   The live link can be found here - https://leec313.github.io/lee-valley/
 
-  ## Credits
+# **Credits**
 
-  ### Content 
+  ## **Content**
   
   * fontawesome.com for all icons
   * tinypng.com for compressing gallery page images
   * [DEV Community](https://dev.to/jungjungie/create-a-navbar-with-css-flexbox-2leh#:~:text=Apply%20Flexbox%20to%20Your%20Navbar,%2C%20it's%20the%20.), [W3 Schools](https://www.w3schools.com/howto/howto_js_mobile_navbar.asp) & [Logrocket](https://blog.logrocket.com/create-responsive-mobile-menu-with-css-no-javascript/#:~:text=There%20are%20many%20techniques%20available,on%20a%20device's%20screen%20size.) - Used all three resources to create my own version of a responsive navigation header section with flex
   * Used the following link in order to add Google Calendar to events.html: [Google Calendar Help](https://support.google.com/calendar/answer/41207?hl=en)
 
-  ### Media
+  ## **Media**
 
   * [lee-valley-logo.png - Logo - created by myself using Photoshop](https://raw.githubusercontent.com/leec313/lee-valley/main/assets/images/lee-valley-logo.webp)
   * [hero.webp - Hero image - Pexels](https://www.pexels.com/photo/cottage-on-grassy-hill-near-golf-course-under-cloudless-blue-sky-6871281/)
@@ -123,7 +151,7 @@ The footer includes 4 links to various social media sites and also a copyright i
   * [signup.webp - Signup page background - Unsplash](https://unsplash.com/photos/I2bCx_tzwh8)
   * [notice.webp - Notice boxes on home page - Pexels](https://www.pexels.com/photo/a-person-putting-a-golf-ball-with-tee-on-green-grass-6542389/)
 
-  ##### Gallery page images
+  ### **Gallery page images**
 
   * [gallery1.webp - 1st image - Unsplash](https://unsplash.com/photos/uy5ZEqUOscs?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink)
   * [gallery2.webp - 2nd image - Unsplash](https://unsplash.com/photos/_dYkmRgqHqo)
@@ -135,10 +163,10 @@ The footer includes 4 links to various social media sites and also a copyright i
   * [gallery8.webp - 8th image - Unsplash](https://unsplash.com/photos/4DJF2yZGZVs)
   * [gallery9.webp - 9th image - Unsplash](https://unsplash.com/photos/Z8XlmAj65iM)
 
-  ### Wireframes
+# **Wireframes**
   
-  #### Mobile
+  ## Mobile
   ![Mobile Wireframe](https://github.com/leec313/lee-valley/blob/main/assets/images/wireframe-mobile.png?raw=true)
 
-  #### Desktop
+  ## Desktop
   ![Desktop Wireframe](https://raw.githubusercontent.com/leec313/lee-valley/main/assets/images/wireframe-desktop.png)
