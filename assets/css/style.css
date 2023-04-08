@@ -1,11 +1,26 @@
  @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Raleway:wght@600&family=Yellowtail&display=swap');
 
+/* Global styles */
 * {
     margin: 0;
     padding: 0;
     border: none;
 }
 
+body {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #3a3a3a;
+}
+
+h1, h2 {
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    color: #252525;
+    text-decoration: none;
+}
+
+/* Headings and logo */
 .header {
     background-color: white;
     box-shadow: 1px 1px 5px 0px grey;
@@ -16,21 +31,6 @@
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-}
-
-body {
-    font-family: 'Lato', sans-serif;
-    font-weight: 300;
-    color: #3a3a3a;
-}
-
-/* Headings and logo */
-
-h1, h2 {
-    font-family: 'Raleway', sans-serif;
-    text-transform: uppercase;
-    color: #252525;
-    text-decoration: none;
 }
 
 #logo-image {
@@ -165,8 +165,7 @@ h1, h2 {
     font-size: 80%;
 }
 
-/* paragraph about section on homepage */
-
+/* about section on homepage */
 .about {
     margin: 50px 10%;
     display: flex;
@@ -203,7 +202,6 @@ h1, h2 {
 }
 
 /* parallax image on index.html */
-
 .parallax {
     margin-bottom: 25px;
     background-image: url("../images/parallax.webp");
@@ -218,6 +216,7 @@ h1, h2 {
 
 /* Events & Notices section on index.html */
 
+/* targets headings within each div */
 .notices h3 {
     text-transform: uppercase;
     text-decoration: underline;
@@ -226,11 +225,13 @@ h1, h2 {
     padding-bottom: 10px;
 }
 
+/* targets heading for the section outside of notice boxes */
 .notices h2 {
     text-decoration: underline;
     text-align: center;
 }
 
+/* targets div boxes as a group, using flex and flex-wrap to accommodate for mobile screens */
 .notice-box {
     display: flex;
     flex-direction: row;
@@ -240,6 +241,7 @@ h1, h2 {
     flex-wrap: wrap;
 }
 
+/* targets each box separately, adding background image, padding, width for mobile etc. */
 .notice-box div {
     width: 40%;
     text-align: center;
@@ -255,6 +257,7 @@ h1, h2 {
     padding-bottom: 15px;
 }
 
+/* targets each icon within the div boxes */
 .notice-box i {
     font-size: 150%;
     padding-top: 10px;
@@ -262,6 +265,7 @@ h1, h2 {
     font-weight: bold;
 }
 
+/* adding a shadow to all text/icons within the div box for better visibilty against background */
 .notice-box i, .notice-box h3, .notice-box p {
     text-shadow: #fff 1px 0 1px;
 }
