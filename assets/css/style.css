@@ -270,11 +270,17 @@ h1, h2 {
     text-shadow: #fff 1px 0 1px;
 }
 
+.view-all {
+    text-decoration: none;
+}
+
 /* link to events page */
 .view-all p{
     display: flex;
     justify-content: center;
     padding-bottom: 25px;
+    color: #198a68;
+    font-weight: bold;
 }
 
 /* footer section */
