@@ -311,6 +311,20 @@ footer h3 {
 
 .gallery > img {
     width: 100%;
+        /* animates zoom effect on loading of page */
+        animation-name: gallery-zoom;
+        animation-duration: 10s;
+        animation-fill-mode: forwards;
+    }
+    
+/* creates the level of zoom for gallery images */
+@keyframes gallery-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
 }
 
 /* signup page */
