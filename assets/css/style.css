@@ -497,8 +497,4 @@ footer h3 {
     .gallery {
         column-count: 2;
     }
-
-    .gallery .img9 {
-        height: 229px;
-    }
 }
