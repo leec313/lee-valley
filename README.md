@@ -156,7 +156,7 @@ For my portfolio project one, I intend to provide a professionally developed web
   Again, this section is responsive to scale up to larger screens and scale down to smaller screens. Events are added via the Google Calendar of the Google Account used and the iframe is taken from Calendar Settings. 
   ![Events](https://screenshot.click/08-22-84071-63806.png)
 
-# ** Future Features**
+# **Future Features**
 
   - ### Animation 
   
