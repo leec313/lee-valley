@@ -81,9 +81,9 @@ The footer includes 4 links to various social media sites and also a copyright i
 
   - __Event Calendar Page__
 
-    - This page links a Google Calendar iframe that displays upcoming events such as golf tournaments. It's also linked to the Notice & Events section of the homepage so the user can access this page through there as well as the navigation menu. 
-
-
+    - This page links a Google Calendar iframe that displays upcoming events such as golf tournaments. It's also linked to the Notice & Events section of the homepage so the user can access this page through there as well as the navigation menu.
+    Again, this section is responsive to scale up to larger screens and scale down to smaller screens. Events are added via the Google Calendar of the Google Account used and the iframe is taken from Calendar Settings. 
+  ![Events](https://screenshot.click/08-22-84071-63806.png)
 
 ### Features I would like to Implement
   - I would have liked to add a scroll trigger on the About section animation on the home page. At the moment, it's just triggered on page load. I researched to only find that Javascript is needed in order to trigger the animation on scroll [as per this blog.](https://imjignesh.com/how-to-trigger-css-animation-on-scroll/)
