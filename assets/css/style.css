@@ -397,7 +397,6 @@ footer h3 {
 
 /* Media queries */
 
-
 @media (min-width: 768px) {
 
     /* for nav and menu */
@@ -497,19 +496,5 @@ footer h3 {
     /* gallery page */
     .gallery {
         column-count: 2;
-    }
-
-    /* signup page */
-    .signup-form {
-        width: 40%;
-        padding: 100px;
-    }
-
-    .signup {
-        border: none;
-    }
-
-    .contact {
-        width: 40%;
     }
 }
