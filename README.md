@@ -85,9 +85,8 @@ The footer includes 4 links to various social media sites and also a copyright i
 
 ## Testing
 
-  - Had a really tough time getting the navigation aligned correctly with flex. Was able to use resources and tutor time to figure it out to a point where I was happy. 
-  - Since doing the above, another bug crept up. The X did not appear after clicking the burger icon on mobile.
-  - I've decided to remove the css that applied the X to appear and just leave the burger icon instead when the menu is clicked open.
+  - Had a really tough time getting the navigation aligned correctly with flex. Was able to use resources and tutor time to figure it out to a point where I was happy. Since, another bug crept up. The X did not appear after clicking the burger icon on mobile. I've decided to remove the css that applied the X to appear and just leave the burger icon instead when the menu is clicked open.
+  - On the gallery page, the animation zoom effect was hiding part of the footer. Add `overflow: hidden;` and fixed that issue.
 
 ### Validator Testing 
 

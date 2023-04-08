@@ -307,6 +307,7 @@ footer h3 {
     column-gap: 0px;
     display: flex;
     flex-wrap: wrap;
+    overflow: hidden;
 }
 
 .gallery > img {
