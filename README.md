@@ -333,4 +333,3 @@ For my portfolio project one, I intend to provide a professionally developed web
   * [gallery6.webp - 6th image - Pexels](https://www.pexels.com/photo/bridge-clouds-club-countryside-209982/)
   * [gallery7.webp - 7th image - Pexels](https://www.pexels.com/photo/man-sitting-on-black-and-gray-golf-cart-1325723/)
   * [gallery8.webp - 8th image - Unsplash](https://unsplash.com/photos/4DJF2yZGZVs)
-  * [gallery9.webp - 9th image - Unsplash](https://unsplash.com/photos/Z8XlmAj65iM)
