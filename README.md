@@ -92,10 +92,6 @@ For my portfolio project one, I intend to provide a professionally developed web
 
   I decided to implement the burger style navigation menu for mobile, as this is best suited for user experience on smaller screens. The use of colors taken from the pallette of the logo compliments the style of the menu.
 
-  The first selector, `.side-menu:checked ~ nav`, targets the `nav` element that follows the `.side-menu` checkbox when it is checked. It sets the `max-height` property to 100%, allowing the menu to be displayed.
-  The second selector, `.side-menu:checked ~ .hamburger .hamburger-line`, targets the `.hamburger-line` element within the `.hamburger` container that follows the `.side-menu` checkbox when it is checked.
-  The third selector, `.side-menu:checked ~ .hamburger .hamburger-line::before .hamburger-line::after`, targets the pseudo-element of the `.hamburger-line` element and display the top and bottom lines.
-
   ![Mobile-nav](https://github.com/leec313/lee-valley/blob/main/assets/images/readme-images/mobile-nav.png?raw=true)
 
   - #### Desktop
