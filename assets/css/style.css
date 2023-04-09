@@ -274,7 +274,7 @@ h1, h2 {
 }
 
 /* link to events page */
-.view-all p{
+.view-all h3{
     display: flex;
     justify-content: center;
     padding-bottom: 25px;
