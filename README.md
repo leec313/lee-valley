@@ -26,6 +26,7 @@ office & pro club opening hours and notices will be displayed here for when the 
     * [**Membership & Contact Page**](<#membership--contact-page>)
     * [**Event Calendar Page**](<#event-calendar-page>)
   * [**Features I would like to Implement**](<#features-i-would-like-to-implement>)
+* [**Technologies Used**](<#technologies-used>)
 * [**Testing**](<#testing>)
 * [**Validator Testing**](<#validator-testing>)
 * [**Deployment**](<#deployment>)
@@ -213,6 +214,15 @@ For my portfolio project one, I intend to provide a professionally developed web
   - ### Testimonials 
 
   A testimonials section would tie in nicely with the login feature. If a member added a testimonial, their first name and profile image would display in their testimonial block along with their feedback. We would have up to four testimonials displayed across a section of one of the pages (home page and perhaps the signup page to encourage users to join).
+
+# **Technologies Used**
+
+  - [HTML5](https://en.wikipedia.org/wiki/HTML) - Content & structure
+  - [CSS3](https://en.wikipedia.org/wiki/CSS) - Styling
+  - [Favicon](https://favicon.io/) - Used to covert full sized logo to favicon size
+  - [Gitpod](https://www.gitpod.io/#get-started) - Used to create and edit the website.
+  - [GitHub](https://github.com/) - Used to host and deploy the website.
+  - [GitBash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) - Terminal used to push changes to the GitHub repository.
 
 # **Testing**
 
