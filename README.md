@@ -296,12 +296,25 @@ For my portfolio project one, I intend to provide a professionally developed web
 
 # **Deployment**
 
+## To Deploy the Project
+
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
   The live link can be found here - https://leec313.github.io/lee-valley/
+
+  ![deploy](https://github.com/leec313/lee-valley/blob/main/assets/images/readme-images/deployment.png?raw=true)
+
+## To Fork the Repository 
+
+- A copy of the GitHub Repository can be made by forking the GitHub account. This copy can be viewed and changes can be made to the copy without affecting the original repository. Take the following steps to fork the repository;
+
+  1. Log in to **GitHub** and locate the [repository](https://github.com/leec313/lee-valley).
+  2. On the right-hand side of the page inline with the repository name is a button called **'Fork'**, click on the button to create a copy of the original repository in your GitHub Account.
+
+  ![fork](https://github.com/leec313/lee-valley/blob/main/assets/images/readme-images/fork.png?raw=true)
 
 # **Credits**
 
