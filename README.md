@@ -38,6 +38,7 @@ office & pro club opening hours and notices will be displayed here for when the 
 * [**Credits**](<#credits>)
   * [**Content**](<#content>)
   * [**Media**](<#media>)
+* [**Acknowledgments**](<#acknowledgments>)
 
 
 # **Objective**
@@ -387,3 +388,7 @@ For my portfolio project one, I intend to provide a professionally developed web
   * [gallery6.webp - 6th image - Pexels](https://www.pexels.com/photo/bridge-clouds-club-countryside-209982/)
   * [gallery7.webp - 7th image - Pexels](https://www.pexels.com/photo/man-sitting-on-black-and-gray-golf-cart-1325723/)
   * [gallery8.webp - 8th image - Unsplash](https://unsplash.com/photos/4DJF2yZGZVs)
+
+  # **Acknowledgments**
+
+  This website was completed as part of the Full Stack Software Development (E-commerce Applications) course at [Code Institute](https://codeinstitute.net/). It is my Portfolio Project 1 and has taught me an amazing amount in such a short period of time. I feel a whole lot more confident when it comes to desining, building and testing in the areas of HTML & CSS. The Code Institute Slack Community and my group in particular has been excellent in supporting me, along with the tutors available online. 
