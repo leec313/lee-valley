@@ -3,7 +3,6 @@
 The Lee Valley Golf Club is based in Dublin, Ireland. This is where people can sign up to become members via the Sign Up page, check out the course gallery, see important information such as event times,
 office & pro club opening hours and notices will be displayed here for when the course is unplayable due to unforeseeable weather conditions and other situations. 
 
-![](https://raw.githubusercontent.com/leec313/lee-valley/main/assets/images/responsive.png)
 
 # Contents
 
