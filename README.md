@@ -29,6 +29,11 @@ office & pro club opening hours and notices will be displayed here for when the 
 * [**Technologies Used**](<#technologies-used>)
 * [**Testing**](<#testing>)
 * [**Validator Testing**](<#validator-testing>)
+  * [**index.html**](<#indexhtml>)
+  * [**gallery.html**](<#galleryhtml>)
+  * [**signup.html**](<#signuphtml>)
+  * [**events.html**](<#eventshtml>)
+  * [**style.css**](<#stylecss>)
 * [**Deployment**](<#deployment>)
 * [**Credits**](<#credits>)
   * [**Content**](<#content>)
@@ -232,13 +237,40 @@ For my portfolio project one, I intend to provide a professionally developed web
 
 # **Validator Testing**
 
-  ### **index.html**
+  ## **index.html**
 
-  ### **gallery.html**
 
-  ### **signup.html**
+  ### **Additonal Accessibility Validation**
+  [a11y](https://color.a11y.com/Contrast/) for some additional contrast testing for accessibility:
 
-  ### **events.html**
+  ![index-a11y](https://github.com/leec313/lee-valley/blob/main/assets/images/validation-images/validation-a11y-index.png?raw=true)
+
+  ## **gallery.html**
+
+
+  ### **Additonal Accessibility Validation**
+  [a11y](https://color.a11y.com/Contrast/) for some additional contrast testing for accessibility:
+
+  ![gallery-a11y](https://github.com/leec313/lee-valley/blob/main/assets/images/validation-images/validation-a11y-gallery.png?raw=true)
+
+  ## **signup.html**
+
+
+  ### **Additonal Accessibility Validation**
+  [a11y](https://color.a11y.com/Contrast/) for some additional contrast testing for accessibility:
+
+  ![signup-a11y](https://github.com/leec313/lee-valley/blob/main/assets/images/validation-images/validation-a11y-signup.png?raw=true)
+
+  ## **events.html**
+
+  
+  ### **Additonal Accessibility Validation**
+  [a11y](https://color.a11y.com/Contrast/) for some additional contrast testing for accessibility:
+
+  ![events-a11y](https://github.com/leec313/lee-valley/blob/main/assets/images/validation-images/validation-a11t-events.png?raw=true)
+
+  ## **style.css**
+
 
 # **Deployment**
 
