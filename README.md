@@ -249,6 +249,16 @@ For my portfolio project one, I intend to provide a professionally developed web
 
   ![html-index](https://github.com/leec313/lee-valley/blob/main/assets/images/validation-images/w3html-index.png?raw=true)
 
+  ### Lighthouse Validation
+
+  * Mobile
+
+  ![lighthouse-index-mobile](https://github.com/leec313/lee-valley/blob/main/assets/images/validation-images/lighthouse-index-mobile.png?raw=true)
+
+  * Desktop
+
+  ![lighthouse-index-desktop](https://github.com/leec313/lee-valley/blob/main/assets/images/validation-images/lighthouse-index-desktop.png?raw=true)
+
   ### **Additonal Accessibility Validation**
   [a11y](https://color.a11y.com/Contrast/) for some additional contrast testing for accessibility:
 
@@ -259,6 +269,16 @@ For my portfolio project one, I intend to provide a professionally developed web
   ### [The W3C Markup Validation Service](https://validator.w3.org/)
 
   ![html-gallery](https://github.com/leec313/lee-valley/blob/main/assets/images/validation-images/w3html-gallery.png?raw=true)
+
+  ### Lighthouse Validation
+
+  * Mobile
+
+  ![lighthouse-gallery-mobile](https://github.com/leec313/lee-valley/blob/main/assets/images/validation-images/lighthouse-gallery-mobile.png?raw=true)
+
+  * Desktop
+
+  ![lighthouse-gallery-desktop](https://github.com/leec313/lee-valley/blob/main/assets/images/validation-images/lighthouse-gallery-desktop.png?raw=true)
 
   ### **Additonal Accessibility Validation**
   [a11y](https://color.a11y.com/Contrast/) for some additional contrast testing for accessibility:
@@ -271,6 +291,16 @@ For my portfolio project one, I intend to provide a professionally developed web
 
   ![html-signup](https://github.com/leec313/lee-valley/blob/main/assets/images/validation-images/w3html-signup.png?raw=true)
 
+  ### Lighthouse Validation
+
+  * Mobile
+
+  ![lighthouse-signup-mobile](https://github.com/leec313/lee-valley/blob/main/assets/images/validation-images/lighthouse-signup-mobile.png?raw=true)
+
+  * Desktop
+
+  ![lighthouse-signup-desktop](https://github.com/leec313/lee-valley/blob/main/assets/images/validation-images/lighthouse-signup-desktop.png?raw=true)
+  
 
   ### **Additonal Accessibility Validation**
   [a11y](https://color.a11y.com/Contrast/) for some additional contrast testing for accessibility:
@@ -282,6 +312,16 @@ For my portfolio project one, I intend to provide a professionally developed web
   ### [The W3C Markup Validation Service](https://validator.w3.org/)
 
   ![html-events](https://github.com/leec313/lee-valley/blob/main/assets/images/validation-images/w3html-events.png?raw=true)
+
+  ### Lighthouse Validation
+
+  * Mobile
+
+  ![lighthouse-events-mobile](https://github.com/leec313/lee-valley/blob/main/assets/images/validation-images/lighthouse-events-mobile.png?raw=true)
+
+  * Desktop
+
+  ![lighthouse-events-desktop](https://github.com/leec313/lee-valley/blob/main/assets/images/validation-images/lighthouse-events-desktop.png?raw=true)
 
 
   ### **Additonal Accessibility Validation**
