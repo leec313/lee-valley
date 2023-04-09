@@ -281,6 +281,8 @@ h1, h2 {
     color: #198a68;
     font-weight: bold;
     text-transform: none;
+    text-decoration: none;
+    padding-top: 0;
 }
 
 /* footer section */
@@ -335,7 +337,9 @@ footer h3 {
 .h2-gallery {
     text-align: center;
     padding: 15px;
-    color: #198a68;
+    color: #fff;
+    font-size: 1.2rem;
+    background-color: #198a68;
 }
     
 /* creates the level of zoom for gallery images */
