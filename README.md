@@ -241,6 +241,11 @@ For my portfolio project one, I intend to provide a professionally developed web
 
   ![favicon-bug](https://github.com/leec313/lee-valley/blob/main/assets/images/readme-images/bug-favicon.png?raw=true)
 
+  ## Manual Testing
+
+  * In addition to the other tests, I have conducted a manual check list for myself to carry out to make sure that everything is working as intended.
+
+      * 
 
 # **Validator Testing**
 
