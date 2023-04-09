@@ -263,7 +263,7 @@ For my portfolio project one, I intend to provide a professionally developed web
 
   ## **events.html**
 
-  
+
   ### **Additonal Accessibility Validation**
   [a11y](https://color.a11y.com/Contrast/) for some additional contrast testing for accessibility:
 
@@ -271,6 +271,9 @@ For my portfolio project one, I intend to provide a professionally developed web
 
   ## **style.css**
 
+  Passed the W3C CSS Validation Service with no errors:
+
+  ![w3-css](https://github.com/leec313/lee-valley/blob/main/assets/images/validation-images/validation-css.png?raw=true)
 
 # **Deployment**
 
