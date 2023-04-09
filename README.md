@@ -161,6 +161,7 @@ For my portfolio project one, I intend to provide a professionally developed web
 
   - This page will allow the user to get signed up to Lee Valley Golf Club and start their journey with as a member. The user will be able to enter their Golf Handicap (if they have one) and other optional data. The user will be asked to submit their full name and email address, which is mandatory.
   - It includes a background image layered under the form section to give a nice visual effect.
+  - Upon submission of the form, the user is presented with a browser alert, thanking them for their submission. The form is not posted anywhere as it is just for educational purposes. 
 
   - ### Mobile
 
