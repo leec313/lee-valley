@@ -1,8 +1,9 @@
 # Lee Valley
 
 The Lee Valley Golf Club is based in Dublin, Ireland. This is where people can sign up to become members via the Sign Up page, check out the course gallery, see important information such as event times,
-office & pro club opening hours and notices will be displayed here for when the course is unplayable due to unforeseeable weather conditions and other situations. 
+office & pro club opening hours and notices will be displayed here for when the course is unplayable due to unforeseeable weather conditions and other situations.
 
+![](https://github.com/leec313/lee-valley/blob/main/assets/images/readme-images/responsive-readme.png?raw=true)
 
 # Contents
 
@@ -44,10 +45,10 @@ For my portfolio project one, I intend to provide a professionally developed web
   The design & wireframes for this project were produced in [Balsamic Wireframe Software](https://balsamiq.com/wireframes/). This includes design prototypes for both, smaller and larger screens. The final design does differ from the initial prototype due to design developments that occurred in the process. However, the base structure has more or less been kept in mind throughout. 
     
   ### Mobile
-  ![Mobile Wireframe](https://github.com/leec313/lee-valley/blob/main/assets/images/wireframe-mobile.png?raw=true)
+  ![Mobile Wireframe](https://github.com/leec313/lee-valley/blob/main/assets/images/readme-images/wireframe-mobile.png?raw=true)
 
   ### Desktop
-  ![Desktop Wireframe](https://raw.githubusercontent.com/leec313/lee-valley/main/assets/images/wireframe-desktop.png)
+  ![Desktop Wireframe](https://github.com/leec313/lee-valley/blob/main/assets/images/readme-images/wireframe-desktop.png?raw=true)
 
   ## **Structure**
 
@@ -59,7 +60,7 @@ For my portfolio project one, I intend to provide a professionally developed web
 
   The colour palette of the website was first thought of when I was creating the logo. I wanted something green, but not too harsh or vibrant. The below two colours were chosen because they work well together and tie in nicely with other colours that may appear throughout the site. The scheme gives off an inviting feeling and also relate to a golf course. The darker green works well on a white background or underneath white text. The lighter green works well with darker text colours. 
 
-  ![colour palette](https://screenshot.click/08-39-16816-27729.png)
+  ![colour palette](https://github.com/leec313/lee-valley/blob/main/assets/images/readme-images/palette.png?raw=true)
 
   ### Typography
 
@@ -77,7 +78,9 @@ For my portfolio project one, I intend to provide a professionally developed web
 
   ### **Navigation Bar**
 
-  The Logo on in the header is clickable and links back to the home page for enhanced UX.
+  The Logo on in the header is clickable and links back to the home page for enhanced UX. I created the Logo myself in Photoshop as I have some previous design experience. The golf ball texture used along with the hills, trees and flag within the design add to the experience to show that this site is truly golf related. 
+
+  ![Logo](https://leec313.github.io/lee-valley/assets/images/lee-valley-logo.webp)
 
   - #### Mobile
 
@@ -87,48 +90,62 @@ For my portfolio project one, I intend to provide a professionally developed web
   The second selector, `.side-menu:checked ~ .hamburger .hamburger-line`, targets the `.hamburger-line` element within the `.hamburger` container that follows the `.side-menu` checkbox when it is checked.
   The third selector, `.side-menu:checked ~ .hamburger .hamburger-line::before .hamburger-line::after`, targets the pseudo-element of the `.hamburger-line` element and display the top and bottom lines.
 
-  ![For mobile](https://screenshot.click/08-42-78686-45687.png)
+  ![Mobile-nav](https://github.com/leec313/lee-valley/blob/main/assets/images/readme-images/mobile-nav.png?raw=true)
 
   - #### Desktop
 
   A simple menu for desktop and larger screens (over 768px wide) allows for easily viewable and accessible navigation. Using the `.active` class on the current page allows the user to see which page they are currently on via an underline.
 
-  ![For desktop](https://screenshot.click/08-41-77833-9568.png)
+  ![Desktop-nav](https://github.com/leec313/lee-valley/blob/main/assets/images/readme-images/desktop-nav.png?raw=true)
 
 ### **Hero image**
 
-  A picturesque hero image with an slightly transparent overlay, keeping in line with the theme's color, and some h2 and h3 headings. This includes the course name and motto. 
+  A picturesque hero image with an slightly transparent overlay, keeping in line with the theme's color, and some h2 and h3 headings. This includes the course name and motto. Again, this section is fully responsive as shown in the images below. 
 
-  ![Hero image](https://screenshot.click/07-32-91739-31511.png)
+  - ### Mobile
+
+  ![Mobile-hero](https://github.com/leec313/lee-valley/blob/main/assets/images/readme-images/mobile-hero.png?raw=true)
+
+  - ### Desktop
+
+  ![Desktop-hero](https://github.com/leec313/lee-valley/blob/main/assets/images/readme-images/desktop-hero.png?raw=true)
 
 ### **About Section**
 
   This includes a h2 heading and paragraph describing the course to tell them about the amenities, location and other information. It immediately gives the user a sense of who the Lee Valley Golf Club is and encourages them to explore further.
 
-  ![About](https://screenshot.click/07-36-3230-82356.png)
+  - ### Mobile
+
+  ![Mobile-about](https://github.com/leec313/lee-valley/blob/main/assets/images/readme-images/mobile-about.png?raw=true)
+
+  - ### Desktop
+
+  ![Desktop-about](https://github.com/leec313/lee-valley/blob/main/assets/images/readme-images/desktop-about.png?raw=true)
 
 ### **Parallax image**
 
-  A nice visual feature, simply added via css. This is quie eye catching for the user and ties in nicely to the homepage.
+  A nice visual feature, simply added via css. This is quite eye catching for the user and ties in nicely to the homepage.
 
-  ![Parallax](https://screenshot.click/07-38-87450-75547.png)
+  ![Parallax](https://github.com/leec313/lee-valley/blob/main/assets/images/readme-images/parallax.png?raw=true)
 
 ### **Notice & Events**
 
-  This section allows the Administrator to add any notices/events that might be happening in the club. It includes a link to the events.html page as "View all events".
+  This section allows the Administrator to add any notices/events that might be happening in the club. It includes a link to the events.html page as "View all events". I made use of flex in order to scale and align for both mobile and desktop. As seen below, under 768px screen width, the columns go from four to two and rows from one to two.
 
-  ![Notice - Desktop](https://screenshot.click/08-38-49174-453.png)
+  - ### Mobile
 
-  I made use of flex in order to scale and align for both mobile and desktop. As seen below, under 768px screen width, the columns go from four to two and rows from one to two.
+  ![Mobile-notice](https://github.com/leec313/lee-valley/blob/main/assets/images/readme-images/mobile-notice.png?raw=true)
+  
+  - ### Desktop
 
-  ![Notice - Mobile](https://screenshot.click/08-39-66419-47595.png)
+  ![Desktop-notice](https://github.com/leec313/lee-valley/blob/main/assets/images/readme-images/desktop-notice.png?raw=true)
 
 ### **Footer**
 
   The footer includes 4 links to various social media sites. To enhance the UX, the links open in separate tabs.
   The Facebook, Twitter, Youtube and Instagram social links are there for educational purposes and navigate the user to the home page of each respected site. They would be changed to re-direct the user to the respective Lee Valley Golf Club social media if this site was deployed outside of this project.
 
-  ![Footer](https://screenshot.click/07-49-6402-79067.png)
+  ![Footer](https://github.com/leec313/lee-valley/blob/main/assets/images/readme-images/footer.png?raw=true)
 
 ### **Gallery**
   - The gallery provides the user with supporting images to see what the course and amenities looks like. 
@@ -136,24 +153,43 @@ For my portfolio project one, I intend to provide a professionally developed web
   - The gallery section is responsive so that it displays two columns for desktop and one for mobile. This was done using flex.
   - Also includes a 10 second zoom animation that kicks in on page load. I think it adds a nice effect when viewing the images.
 
-  ![gallery](https://screenshot.click/08-39-66942-46427.png)
+  ![gallery](https://github.com/leec313/lee-valley/blob/main/assets/images/readme-images/gallery.png?raw=true)
 
 ### **Membership & Contact Page**
 
   - This page will allow the user to get signed up to Lee Valley Golf Club and start their journey with as a member. The user will be able to enter their Golf Handicap (if they have one) and other optional data. The user will be asked to submit their full name and email address, which is mandatory.
   - It includes a background image layered under the form section to give a nice visual effect.
 
-  ![Membership](https://screenshot.click/07-00-82974-39661.png)
+  - ### Mobile
+
+  ![Mobile-membership](https://github.com/leec313/lee-valley/blob/main/assets/images/readme-images/mobile-membership.png?raw=true)
+
+  - ### Desktop
+
+  ![Desktop-membership](https://github.com/leec313/lee-valley/blob/main/assets/images/readme-images/desktop-membership.png?raw=true)
 
   - The contact section on this page provides information for users in order to get in touch via phone or email. It also includes phone opening times. 
 
-  ![Contact](https://screenshot.click/07-00-68148-72314.png)
+  - ### Mobile
+
+  ![Mobile-contact](https://github.com/leec313/lee-valley/blob/main/assets/images/readme-images/mobile-contact.png?raw=true)
+
+  - ### Desktop
+
+  ![Desktop-contact](https://github.com/leec313/lee-valley/blob/main/assets/images/readme-images/desktop-contact.png?raw=true)
 
 ### **Event Calendar Page**
 
   - This page links a Google Calendar iframe that displays upcoming events such as golf tournaments. It's also linked to the Notice & Events section of the homepage so the user can access this page through there as well as the navigation menu.
   Again, this section is responsive to scale up to larger screens and scale down to smaller screens. Events are added via the Google Calendar of the Google Account used and the iframe is taken from Calendar Settings. 
-  ![Events](https://screenshot.click/08-22-84071-63806.png)
+
+  - ### Mobile
+  
+  ![Mobile-calendar](https://github.com/leec313/lee-valley/blob/main/assets/images/readme-images/mobile-calendar.png?raw=true)
+
+  - ### Desktop
+
+  ![Desktop-calendar](https://github.com/leec313/lee-valley/blob/main/assets/images/readme-images/desktop-calendar.png?raw=true)
 
 # **Future Features**
 
@@ -206,11 +242,12 @@ For my portfolio project one, I intend to provide a professionally developed web
 
   ## **Content**
   
-  * fontawesome.com for all icons
-  * tinypng.com for compressing gallery page images
+  * [Font Awesome](https://fontawesome.com/) for all icons
+  * [TinyPNG](https://tinypng.com/) for compressing gallery page images
   * [DEV Community](https://dev.to/jungjungie/create-a-navbar-with-css-flexbox-2leh#:~:text=Apply%20Flexbox%20to%20Your%20Navbar,%2C%20it's%20the%20.), [W3 Schools](https://www.w3schools.com/howto/howto_js_mobile_navbar.asp) & [Logrocket](https://blog.logrocket.com/create-responsive-mobile-menu-with-css-no-javascript/#:~:text=There%20are%20many%20techniques%20available,on%20a%20device's%20screen%20size.) - Used all three resources to create my own version of a responsive navigation header section with flex
   * Used the following link in order to add Google Calendar to events.html: [Google Calendar Help](https://support.google.com/calendar/answer/41207?hl=en)
   * Fonts used - [Raleway](https://fonts.google.com/specimen/Raleway/) & [Lato](https://fonts.google.com/specimen/Lato/)
+  * [Balsamic Wireframe Software](https://balsamiq.com/wireframes/) for initial design layout
 
   ## **Media**
 
