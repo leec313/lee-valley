@@ -278,7 +278,7 @@ For my portfolio project one, I intend to provide a professionally developed web
 
   ### Lighthouse Validation
 
-  After compressing the gallery images even further, I was able to get from a 72 lighhouse score on performance up to a 99. It shows how something so simple can make such a huge difference.
+  After compressing the gallery images even further, I was able to get from a 72 lighhouse score on performance up to a 92/96. It shows how something so simple can make such a huge difference.
 
   * Mobile
 
