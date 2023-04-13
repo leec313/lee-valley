@@ -232,6 +232,14 @@ For my portfolio project one, I intend to provide a professionally developed web
 
   ![deploy](https://github.com/leec313/lee-valley/blob/main/assets/images/readme-images/deployment.png?raw=true)
 
+
+## Local Deployment
+
+- I also deployed the site locally by downloading the .zip file from Github to my device.
+- I unzipped the file and tested each link page to make sure it opened correctly on my browser. 
+
+![local-deploy](https://github.com/leec313/lee-valley/blob/main/assets/images/readme-images/local-deploy.png?raw=true)
+
 ## To Fork the Repository 
 
 - A copy of the GitHub Repository can be made by forking the GitHub account. This copy can be viewed and changes can be made to the copy without affecting the original repository. Take the following steps to fork the repository;
