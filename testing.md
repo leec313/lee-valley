@@ -65,6 +65,9 @@
 
   * Desktop
 
+  On the Gallery page, Lighthouse gave a result of 92 for best practices due to "Displays images with incorrect aspect ratio" on one particular image. I believe this was to do with how Flex is sizing the images and I have attempted to fix the image with no success. 
+  * [Displays images with incorrect aspect ratio - Chrome Developers](https://developer.chrome.com/en/docs/lighthouse/best-practices/image-aspect-ratio/#:~:text=%23%20How%20the%20Lighthouse%20image%20aspect%20ratio%20audit%20fails&text=There%20are%20two%20common%20causes,of%20a%20variably%2Dsized%20container.)
+
   ![lighthouse-gallery-desktop](https://github.com/leec313/lee-valley/blob/main/assets/images/validation-images/lighthouse-gallery-desktop.png?raw=true)
 
   ### **Additonal Accessibility Validation**
