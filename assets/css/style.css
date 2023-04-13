@@ -35,6 +35,8 @@ h1, h2 {
 
 #logo-image {
     width: 50%;
+    /* adding specific height to logo as per Google Lighthouse performance recommendation */
+    height: 50%;
     margin-left: 10px;
     margin-top: 15px;
     margin-bottom: 15px;
