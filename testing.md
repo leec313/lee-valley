@@ -77,6 +77,8 @@
 
   * Desktop
 
+  After compressing the signup.webp image, the score went from a 78 to a 98.
+
   ![lighthouse-signup-desktop](https://github.com/leec313/lee-valley/blob/main/assets/images/validation-images/lighthouse-signup-desktop.png?raw=true)
   
 
