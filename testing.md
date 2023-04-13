@@ -14,7 +14,16 @@
   - In the footer, below roughly 290px, the social icons would go haywire and wouldn't look to nice. One of the icons would go underneath the rest, to make 2 columns - however, there would be 3 on top and one on the bottom. 
   I fixed this by implemnting a grid so that it would create a 2x2 display. This would be for really small screens. The media query used here can be found on line 612 of the style.css.
 
-  - I noticed in testing the site on iOS Safari Browser, the parallax image does not work. After some research, I was able to find this is either a bug that Apple refuse to fix or something they've disabled in order to save load time/data on mobile devices. I decided to leave the parallax image there and allow it for Desktop/Android users. 
+  - I noticed in testing the site on iOS Safari Browser, the parallax image does not work. After some research, I was able to find this is either a bug that Apple refuse to fix or something they've disabled in order to save load time/data on mobile devices. I decided to leave the parallax image there and allow it for Desktop/Android users.
+
+  ![parallax-bug](https://github.com/leec313/lee-valley/blob/main/assets/images/readme-images/parallax-bug.jpeg?raw=true) 
+
+  - Also, on iOS Safari, I noticed the background image on the notice boxes was not displaying. After much research, testing and contacting tutor support, I was able to conclude this is another known issue with Safari on Mobile. 
+  Nothing that I tested made any difference including the below linked Stackoverflow thread plus many others:
+
+  [Stackoverflow - Background image not showing in Safari](https://stackoverflow.com/questions/17341728/background-image-not-showing-in-safari)
+
+
 
   ## Manual Testing
 
