@@ -536,7 +536,7 @@ footer h3 {
     }
 
     /* nav styling for desktop */
-    .logo-and-burger-nav {
+    .logo-and-nav {
         display: flex;
         flex-direction: row;
     }

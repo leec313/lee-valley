@@ -4,19 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Meta description and keywords-->
     <meta name="description" content="Lee Valley Golf Club for golf lovers based in Dublin, Ireland">
     <meta name="keywords" content="lee valley, golf club, golf course, membership, dublin, ireland">
+
+    <!--Link to css-->
     <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="icon" type="image/x-icon" href="assets/images/favicon.ico">
+
+    <!--Favicon for all device formats - https://www.favicon-generator.org/ -->
+    <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="assets/images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="assets/images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="assets/images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="assets/images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="assets/images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="assets/images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="assets/images/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="assets/images/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
 
     <title>Lee Valley Golf Club</title>
 </head>
 <body>
     <header class="header">
-        <!--nav, logo and menu-->
-        <div class="logo-and-burger-nav"> <!--for desktop-->
+        <!--nav, logo and menu
+        This div called logo-and-nav is used for desktop. When the screenszise is above 768px width, the mobile div is hidden and the desktop version is displayed. This div will be used to align the menu items to the right of the logo-->
+        <div class="logo-and-nav"> <!--for desktop-->
             <input class="side-menu" type="checkbox" id="side-menu">
-            <div class="logo-and-burger"> <!--for mobile-->
+            <!--The logo-and-burger div is for mobile. The desktop menu is hidden under 768 width-->
+            <div class="logo-and-burger"> 
                 <label class="hamburger" for="side-menu"><span class="hamburger-line"></span></label>
                 <a href="index.html">
                     <img id="logo-image" src="assets/images/lee-valley-logo.webp" alt="Lee Valley Golf Club Logo">

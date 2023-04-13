@@ -26,7 +26,6 @@ office & pro club opening hours and notices will be displayed here for when the 
     * [**Membership & Contact Page**](<#membership--contact-page>)
     * [**Event Calendar Page**](<#event-calendar-page>)
   * [**Features I would like to Implement**](<#features-i-would-like-to-implement>)
-* [**Technologies Used**](<#technologies-used>)
 * [**Testing.md**](https://github.com/leec313/lee-valley/blob/main/testing.md)
 * [**Validator Testing**](<#validator-testing>)
   * [**index.html**](<#indexhtml>)
@@ -218,16 +217,6 @@ For my portfolio project one, I intend to provide a professionally developed web
 
   A testimonials section would tie in nicely with the login feature. If a member added a testimonial, their first name and profile image would display in their testimonial block along with their feedback. We would have up to four testimonials displayed across a section of one of the pages (home page and perhaps the signup page to encourage users to join).
 
-# **Technologies Used**
-
-  - [HTML5](https://en.wikipedia.org/wiki/HTML) - Content & structure
-  - [CSS3](https://en.wikipedia.org/wiki/CSS) - Styling
-  - [Favicon](https://favicon.io/) - Used to covert full sized logo to favicon size
-  - [Gitpod](https://www.gitpod.io/#get-started) - Used to create and edit the website.
-  - [GitHub](https://github.com/) - Used to host and deploy the website.
-  - [GitBash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) - Terminal used to push changes to the GitHub repository.
-  - [a11y](https://color.a11y.com/Contrast/) - Used to test the contrast and accessibility.
-
 # [**Testing.md File**](https://github.com/leec313/lee-valley/blob/main/testing.md)
 
 # **Deployment**
@@ -256,12 +245,21 @@ For my portfolio project one, I intend to provide a professionally developed web
 
   ## **Content**
   
+  ## **Technologies Used**
+
+  - [HTML5](https://en.wikipedia.org/wiki/HTML) - Content & structure
+  - [CSS3](https://en.wikipedia.org/wiki/CSS) - Styling
+  - [Gitpod](https://www.gitpod.io/#get-started) - Used to create and edit the website.
+  - [GitHub](https://github.com/) - Used to host and deploy the website.
+  - [GitBash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) - Terminal used to push changes to the GitHub repository.
+  - [a11y](https://color.a11y.com/Contrast/) - Used to test the contrast and accessibility.
   * [Font Awesome](https://fontawesome.com/) for all icons
   * [TinyPNG](https://tinypng.com/) for compressing gallery page images
   * [DEV Community](https://dev.to/jungjungie/create-a-navbar-with-css-flexbox-2leh#:~:text=Apply%20Flexbox%20to%20Your%20Navbar,%2C%20it's%20the%20.), [W3 Schools](https://www.w3schools.com/howto/howto_js_mobile_navbar.asp) & [Logrocket](https://blog.logrocket.com/create-responsive-mobile-menu-with-css-no-javascript/#:~:text=There%20are%20many%20techniques%20available,on%20a%20device's%20screen%20size.) - Used all three resources to create my own version of a responsive navigation header section with flex
   * Used the following link in order to add Google Calendar to events.html: [Google Calendar Help](https://support.google.com/calendar/answer/41207?hl=en)
   * Fonts used - [Raleway](https://fonts.google.com/specimen/Raleway/) & [Lato](https://fonts.google.com/specimen/Lato/)
   * [Balsamic Wireframe Software](https://balsamiq.com/wireframes/) for initial design layout
+  * [Favicon.ico & App Icon GeneratorFrom Dan's Tools](https://www.favicon-generator.org/)
 
   ## **Media**
 
