@@ -275,6 +275,11 @@ h1, h2 {
     text-decoration: none;
 }
 
+.view-all :hover {
+    color: #252525;
+    text-decoration: underline;
+}
+
 /* link to events page */
 .view-all h3{
     display: flex;
@@ -315,6 +320,10 @@ footer h3 {
 .socials i {
     font-size: 160%;
     color: #ffffff;
+}
+
+.socials :hover {
+    color: #b2e9be;
 }
 
 /* gallery page */
@@ -455,11 +464,31 @@ footer h3 {
     height: 500px;
 }
 
+.p404 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    text-align: center;
+}
+
+.p404 img {
+    width: 100%;
+}
+
+.p404 h2 {
+    padding: 25px;
+    font-size: 150%;
+    color: #198a68;
+}
+
 /* Media queries */
 
 @media (min-width: 768px) {
 
-    /* for nav and menu */
+    /* This media query controls elements to adapt to screen sizes above 768px width.
+    Below is every necessary element and their attributes in order to allow for larger screens */    
+
     .header {
         width: 100%;
         display: flex;
@@ -498,7 +527,7 @@ footer h3 {
 
     .menu a:hover {
         background-color: transparent;
-        color: gray;
+        color: #198a68;
         text-decoration: underline;
     }
     
@@ -559,6 +588,11 @@ footer h3 {
     /* Calandar */
     .calendar {
         height: 1000px;
+    }
+
+    /* 404 page */
+    .p404 img {
+        width: 40%;
     }
 }
 

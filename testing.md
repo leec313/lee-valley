@@ -13,9 +13,18 @@
 
   ## Manual Testing
 
-  * In addition to the other tests, I have conducted a manual check list for myself to carry out to make sure that everything is working as intended.
+  * In addition to the other tests below, I have conducted a manual check list for myself to carry out to make sure that everything is working as intended.
 
-      * 
+      ## Testing Process
+| Test                | Action                   | Success Criteria  |
+| -------------       |-------------             | -----|
+| Homepage      | Navigate to website URL  | Page loads, not shwoing errors |
+| Links            | Checked every link to make sure they were working including the nav links   | Pages load successfully to correct path |
+| Form validation  | Enter data into all input fields | Form doesn't submit until correct data is entered, error message shows if incorrect/missing |
+| Form submission | Complete each form and submit | Form successfully submits, browser alert shown |
+| Responsiveness | Resize viewport window with Chrome Dev Tools. Use [Responsive Design Checker](https://www.websiteplanet.com/webtools/responsive-checker/) to test various mobile, tablet and large screen sizes | Page layout remains intact and adapts to screen size as intended |
+| Accessibility | Navigate the site with keyboard and screen reader | Tab index works in correct order, website is navigable, content/aria-labels read aloud |
+| Browser compatibility | Test links, layout, appearance, functionality and above Tests on Chrome, Safari, Firefox and Edge. | Website looks and functions as intended and passes all tests above
 
 # **Validator Testing**
 
