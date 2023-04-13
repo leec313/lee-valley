@@ -248,7 +248,7 @@ h1, h2 {
     text-align: center;
     font-weight: bold;
     background-image: url(../images/notice.webp);
-    background-size: 150%;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     /* creating an overlay shadow, so we can clearly see the forground text */

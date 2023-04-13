@@ -14,6 +14,8 @@
   - In the footer, below roughly 290px, the social icons would go haywire and wouldn't look to nice. One of the icons would go underneath the rest, to make 2 columns - however, there would be 3 on top and one on the bottom. 
   I fixed this by implemnting a grid so that it would create a 2x2 display. This would be for really small screens. The media query used here can be found on line 612 of the style.css.
 
+  - I noticed in testing the site on iOS Safari Browser, the parallax image does not work. After some research, I was able to find this is either a bug that Apple refuse to fix or something they've disabled in order to save load time/data on mobile devices. I decided to leave the parallax image there and allow it for Desktop/Android users. 
+
   ## Manual Testing
 
   * In addition to the other tests below, I have conducted a manual check list for myself to carry out to make sure that everything is working as intended.

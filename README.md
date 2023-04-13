@@ -25,6 +25,7 @@ office & pro club opening hours and notices will be displayed here for when the 
     * [**Gallery**](<#gallery>)
     * [**Membership & Contact Page**](<#membership--contact-page>)
     * [**Event Calendar Page**](<#event-calendar-page>)
+    * [**404 Page**](<#404-page>)
   * [**Future Features**](<#future-features>)
 * [**Testing.md**](https://github.com/leec313/lee-valley/blob/main/testing.md)
 * [**Deployment**](<#deployment>)
@@ -187,6 +188,12 @@ For my portfolio project one, I intend to provide a professionally developed web
   - ### Desktop
 
   ![Desktop-calendar](https://github.com/leec313/lee-valley/blob/main/assets/images/readme-images/desktop-calendar.png?raw=true)
+
+### **404 Page**
+
+The 404 page was created for any broken links that might be entered. The user will be redirected to the 404 page. 
+
+![404](https://github.com/leec313/lee-valley/blob/main/assets/images/readme-images/404.png?raw=true)
 
 # **Future Features**
 
