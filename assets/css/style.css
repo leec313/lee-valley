@@ -249,6 +249,8 @@ h1, h2 {
     font-weight: bold;
     background-image: url(../images/notice.webp);
     background-size: cover;
+    /* for iOS - needed for image to show - explained in readme */
+    -webkit-background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     /* creating an overlay shadow, so we can clearly see the forground text */
