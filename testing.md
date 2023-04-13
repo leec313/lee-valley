@@ -11,6 +11,9 @@
 
   ![favicon-bug](https://github.com/leec313/lee-valley/blob/main/assets/images/readme-images/bug-favicon.png?raw=true)
 
+  - In the footer, below roughly 290px, the social icons would go haywire and wouldn't look to nice. One of the icons would go underneath the rest, to make 2 columns - however, there would be 3 on top and one on the bottom. 
+  I fixed this by implemnting a grid so that it would create a 2x2 display. This would be for really small screens. The media query used here can be found on line 612 of the style.css.
+
   ## Manual Testing
 
   * In addition to the other tests below, I have conducted a manual check list for myself to carry out to make sure that everything is working as intended.
