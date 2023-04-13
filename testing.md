@@ -23,6 +23,7 @@
 
   [Stackoverflow - Background image not showing in Safari](https://stackoverflow.com/questions/17341728/background-image-not-showing-in-safari)
 
+  ![background-bug](https://github.com/leec313/lee-valley/blob/main/assets/images/readme-images/background-image-bug.jpeg?raw=true)
 
 
   ## Manual Testing
