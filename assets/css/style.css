@@ -244,13 +244,13 @@ h1, h2 {
 
 /* targets each box separately, adding background image, padding, width for mobile etc. */
 .notice-box div {
-    width: 40%;
+    width: 100%;
     text-align: center;
     font-weight: bold;
     background-image: url(../images/notice.webp);
-    background-size: 100%;
+    background-size: 150%;
     background-repeat: no-repeat;
-    background-position: bottom;
+    background-position: center;
     /* creating an overlay shadow, so we can clearly see the forground text */
     box-shadow: inset 0 0 99999px 30px #fff;
     margin: 10px;
