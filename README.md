@@ -25,7 +25,7 @@ office & pro club opening hours and notices will be displayed here for when the 
     * [**Gallery**](<#gallery>)
     * [**Membership & Contact Page**](<#membership--contact-page>)
     * [**Event Calendar Page**](<#event-calendar-page>)
-  * [**Features I would like to Implement**](<#features-i-would-like-to-implement>)
+  * [**Future Features**](<#future-features>)
 * [**Testing.md**](https://github.com/leec313/lee-valley/blob/main/testing.md)
 * [**Deployment**](<#deployment>)
 * [**Credits**](<#credits>)
