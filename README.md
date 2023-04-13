@@ -27,7 +27,7 @@ office & pro club opening hours and notices will be displayed here for when the 
     * [**Event Calendar Page**](<#event-calendar-page>)
   * [**Features I would like to Implement**](<#features-i-would-like-to-implement>)
 * [**Technologies Used**](<#technologies-used>)
-* [**Testing**](<#testing>)
+* [**Testing.md**](https://github.com/leec313/lee-valley/blob/main/testing.md)
 * [**Validator Testing**](<#validator-testing>)
   * [**index.html**](<#indexhtml>)
   * [**gallery.html**](<#galleryhtml>)
@@ -228,7 +228,7 @@ For my portfolio project one, I intend to provide a professionally developed web
   - [GitBash](https://en.wikipedia.org/wiki/Bash_(Unix_shell)) - Terminal used to push changes to the GitHub repository.
   - [a11y](https://color.a11y.com/Contrast/) - Used to test the contrast and accessibility.
 
-# [**Testing.md File**]()
+# [**Testing.md File**](https://github.com/leec313/lee-valley/blob/main/testing.md)
 
 # **Deployment**
 
