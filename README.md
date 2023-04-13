@@ -278,6 +278,8 @@ For my portfolio project one, I intend to provide a professionally developed web
 
   ### Lighthouse Validation
 
+  After compressing the gallery images even further, I was able to get from a 72 lighhouse score on performance up to a 99. It shows how something so simple can make such a huge difference.
+
   * Mobile
 
   ![lighthouse-gallery-mobile](https://github.com/leec313/lee-valley/blob/main/assets/images/validation-images/lighthouse-gallery-mobile.png?raw=true)
