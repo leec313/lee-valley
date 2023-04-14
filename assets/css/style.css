@@ -401,12 +401,20 @@ footer h3 {
     padding-left: 15px;
 }
 
+.signup-form input:hover {
+    border: 2px solid #252525;
+}
+
 .signup-form .submit {
     background-color: #252525;
     color: #fff;
     text-transform: uppercase;
     width: 100%;
     font-weight: bold;
+}
+
+.signup-form .submit:hover {
+    background-color: #198a68;
 }
 
 .signup-form span {
