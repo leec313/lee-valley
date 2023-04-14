@@ -97,7 +97,7 @@ For my portfolio project one, I intend to provide a professionally developed web
 
 ### **Hero image**
 
-  A picturesque hero image with an slightly transparent overlay, keeping in line with the theme's color, and some h2 and h3 headings. This includes the course name and motto. Again, this section is fully responsive as shown in the images below. 
+  A picturesque hero image with a slightly transparent overlay, keeping in line with the theme's color, and some h2 and h3 headings. This includes the course name and motto. Again, this section is fully responsive as shown in the images below. 
 
   - ### Mobile
 
